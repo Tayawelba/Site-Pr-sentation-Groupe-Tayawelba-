@@ -1,0 +1,102 @@
+* {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 30px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+   
+      .topnav {
+            background-color: skyblue;
+            overflow: hidden;
+         }
+         .topnav a {
+            float: left;
+            color: grey;
+            text-align: center;
+            padding: 14px; 16px;
+            font-size: 17px;
+         }
+         .topnav a:hover {
+            background-color: red;
+            color: black;
+         }
+         .topnav a.active {
+            background-color: blue;
+            color: white;
+         }
+         main {
+            display: inline-flex;
+            background-image: url('ima.jpg');
+            background-position: 1% 1%;
+             background-size: 100% 100%; 
+             border-image: 50%; 
+             position: relative; 
+         }
+         .right {
+         padding-bottom: 0px;
+         padding-left: 5px;
+
+         }
+   .right p  {
+      float: right;
+      background-color: skyblue;
+      text-align: justify;
+      padding-right: 5px;
+      padding-left: 20px;
+      border-radius: 4%;
+      padding-bottom: 25px;
+      padding-top: 25px;
+
+   }
+.left {
+      padding-bottom: 0px;
+      padding-top: 0px;
+      width: 30%;
+      display: block;
+   }
+   .img {
+      border-radius: 50%;
+   }

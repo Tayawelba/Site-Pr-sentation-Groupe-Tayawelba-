@@ -1,0 +1,27 @@
+html, body{
+	background-color: #b6b6b6;
+	color: #111;
+}
+a img{
+  border : none;
+}
+.image-ronde{
+  width : 150px; height : 150px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+
+.image-ronde-bg{
+  background-size : contain;
+  background-position : 70% 50%; 
+  background-image : url(../img/img1.jpg);
+  display : inline-block;
+  width : 200px; height : 200px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+
